@@ -1,12 +1,57 @@
 --- 
---- 
+---
+.text{
+  margin: 25px 50px;
+  width: 100%;
+  text-align: center;
+  height:10;
+}
+.navigation-heading{
+  color: #fff;
+  font-family: "Consolas";
+  font-size:25px;
+  text-shadow: 0 0 3px #fff;
+  width: 100%;
+  white-space:nowrap;
+  animation: typing 3s steps(60, end);
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+.navigation-heading:nth-child(2){
+  animation: typingtwo 8s steps(60, end);
+}
+
+@keyframes typingtwo{
+  0%{
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100%
+  }
+}
+
+.cursor{
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  to {
+    opacity:0;
+  }
+}
+
 #badge{
   display: list-item;
-  
 }
-.linki{
-  display:block;
-}
+
 .badge-image {
   width: 90px;
   filter: drop-shadow(2px 4px 6px gray);
@@ -277,7 +322,6 @@ a:hover {
 }
 
 .hack h1:after {
-  content: "====================================================================================================";
   position: absolute;
   bottom: 10px;
   left: 0
