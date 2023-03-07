@@ -4,7 +4,9 @@
   display: list-item;
   
 }
-
+.linki{
+  display:block;
+}
 .badge-image {
   width: 90px;
   filter: drop-shadow(2px 4px 6px gray);
@@ -73,6 +75,7 @@ pre code {
 a {
   cursor: pointer;
   text-decoration: none;
+  color: #ff2e88;
 }
 
 a:hover {
