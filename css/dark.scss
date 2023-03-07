@@ -1,5 +1,18 @@
 ---
 --- 
+.badge-image {
+  width: 90px;
+  filter: drop-shadow(2px 4px 6px gray);
+  margin-bottom: 10px;
+  display: inline-block;
+ 
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+
 .dark {
   color: #ccc
 }
@@ -140,8 +153,12 @@
   border-color: rgba(95, 95, 95, .78)
 }
 
-.dark .menu .menu-item.active,
+.dark .menu .menu-item.active
+{
+  color: #ffffff;
+  border-color: #ccc
+}
 .dark .menu .menu-item:hover {
-  color: #fff;
+  color: #046b09;
   border-color: #ccc
 }
