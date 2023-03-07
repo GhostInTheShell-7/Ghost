@@ -1,0 +1,54 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: website
+description: > # this means to ignore newlines until "baseurl:"
+  A minimalistic theme for Jekyll, based on hack.css
+repository: https://github.com/GhostInTheShell-7/GhostInTheShell-7
+baseurl: /  # the subpath of your site, e.g. /blog
+url: https://ghostintheshell-7.github.io  # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Sass settings
+sass:
+  style: compressed
+
+# Theme settings
+theme_mode: 'dark'  # choices are: 'dark', 'standard', 'markdown'
+
+# Customizations
+your_name: GhostInTheShell
+email: 
+
+navigation:
+  - text: Home
+    url: /
+  - text: TryHackMe
+    url: /thm
+  - text: HackTheBox
+    url: /htb
+  - text: PentesterLab
+    url: /pentesterlab
+  - text: PortSwigger
+    url: /portswigger
+  - text: CryptoHack
+    url: /cryptohack
+
+social:
+  - service: github
+    username: 
+    link: 
+  - service: twitter
+    username: 
+    link: 
+
+# Plugins
+gems:
+  - jekyll-seo-tag
